@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="dark" lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Administration — Café Touba SEUGN BI</title>
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="min-h-screen">
+<header class="sticky top-0 z-40 bg-surface/95 backdrop-blur border-b border-primary-container/20">
+  <div class="container-x h-16 flex items-center justify-between gap-space-sm">
+    <div class="flex items-center gap-space-sm">
+      <img src="assets/img/logo-badge.webp" alt="" class="h-10 w-10 rounded-full">
+      <div class="leading-tight"><div class="font-display text-title-md text-primary">Administration</div><div class="text-label-sm text-on-surface-variant">Café Touba SEUGN BI</div></div>
+    </div>
+    <div class="flex items-center gap-space-sm">
+      <span id="dirty" class="hidden text-label-md text-tertiary-container">● Modifications non publiées</span>
+      <button id="publish" type="button" class="btn btn-primary !py-2 !px-space-md"><span class="material-symbols-outlined text-[18px]">cloud_upload</span>Publier</button>
+    </div>
+  </div>
+  <nav id="tabs" class="container-x flex gap-1 overflow-x-auto" aria-label="Sections"></nav>
+</header>
+
+<main class="container-x py-space-lg max-w-4xl">
+  <div id="msg" class="hidden mb-space-md p-space-sm rounded-xl border text-body-md" role="status"></div>
+  <div id="view"></div>
+</main>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/admin.js"></script>
+</body>
+</html>

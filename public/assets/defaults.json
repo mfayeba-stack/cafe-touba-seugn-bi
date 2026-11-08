@@ -1,0 +1,78 @@
+{
+ "footer_about": {
+  "text": "L'excellence du Café Touba artisanal. Un café torréfié selon la tradition, au véritable poivre de Djar, symbole de Teranga et d'authenticité.",
+  "page": "produits"
+ },
+ "contact_intro": {
+  "text": "Une question, une commande en gros, une livraison ? Écrivez-nous ou appelez-nous.",
+  "page": "contact"
+ },
+ "djar_intro": {
+  "text": "Le Djar, aussi appelé poivre de Guinée ou poivre de Selim, est l'épice qui signe le Café Touba. Torréfié puis pilé avec le café, il lui donne son parfum chaleureux et son piquant caractéristique.",
+  "page": "djar"
+ },
+ "histoire_p1": {
+  "text": "Le vrai goût du Café Touba, c'est avant tout une histoire de qualité, de savoir-faire et d'authenticité. Chez SEUGN BI, chaque grain de café est soigneusement sélectionné, nettoyé et traité avec attention.",
+  "page": "histoire"
+ },
+ "histoire_p2": {
+  "text": "De la torréfaction maîtrisée au dosage précis des ingrédients, chaque étape est réalisée avec exigence pour vous offrir un café riche en arômes, au goût intense et inimitable. Préparé dans le respect de la tradition, SEUGN BI vous fait retrouver toute la saveur du véritable Café Touba.",
+  "page": "histoire"
+ },
+ "hero_tagline": {
+  "text": "« Sama Café, Sama Tradition ! »",
+  "page": "Accueil"
+ },
+ "hero_title": {
+  "text": "Le Véritable Café Touba Artisanal de Dakar",
+  "page": "Accueil"
+ },
+ "hero_quote": {
+  "text": "« Le vrai goût du Café Touba, c'est avant tout une histoire de qualité, de savoir-faire et d'authenticité… Chez SEUGN BI, chaque grain de café est soigneusement sélectionné, nettoyé et traité avec attention. »",
+  "page": "Accueil"
+ },
+ "hero_sub": {
+  "text": "De la torréfaction maîtrisée au dosage du poivre de Djar, chaque étape est réalisée avec exigence pour sublimer une boisson chaleureuse et réconfortante.",
+  "page": "Accueil"
+ },
+ "savoir_title": {
+  "text": "L'exigence de la torréfaction traditionnelle",
+  "page": "Accueil"
+ },
+ "savoir_intro": {
+  "text": "De la torréfaction maîtrisée au dosage précis des ingrédients, chaque étape est réalisée avec exigence pour vous offrir un café riche en arômes, au goût intense et inimitable.",
+  "page": "Accueil"
+ },
+ "banner_quote": {
+  "text": "« Préparé dans le respect de la tradition, SEUGN BI vous fait retrouver toute la saveur du véritable Café Touba. »",
+  "page": "Accueil"
+ },
+ "boutique_title": {
+  "text": "Commandez votre Café Touba",
+  "page": "Accueil"
+ },
+ "boutique_intro": {
+  "text": "Ajoutez vos sachets au panier puis envoyez votre commande sur WhatsApp en un clic.",
+  "page": "Accueil"
+ },
+ "gallery_title": {
+  "text": "Un moment de plaisir qui nous ressemble",
+  "page": "Accueil"
+ },
+ "gallery_intro": {
+  "text": "Au petit matin, en famille, entre amis ou au travail… partagez un moment de plaisir autour d'un café qui nous ressemble.",
+  "page": "Accueil"
+ },
+ "closing_tagline": {
+  "text": "SEUGN BI… Sama Café, Sama Tradition !",
+  "page": "Accueil"
+ },
+ "closing_quote": {
+  "text": "« Le goût authentique du Café Touba. »",
+  "page": "Accueil"
+ },
+ "produits_intro": {
+  "text": "Même recette ancestrale, plusieurs formats. Ajoutez au panier puis validez votre commande sur WhatsApp.",
+  "page": "produits"
+ }
+}

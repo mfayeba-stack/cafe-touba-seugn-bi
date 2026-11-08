@@ -1,0 +1,1 @@
+{"name":"cafe-touba-seugn-bi","private":true,"version":"1.0.0","scripts":{"build:css":"tailwindcss -i src/input.css -o public/assets/css/style.css --minify","build:html":"node build.js","build":"npm run build:css && npm run build:html","dev":"npm run build"},"devDependencies":{"sharp":"^0.35.5","tailwindcss":"^3.4.17"}}

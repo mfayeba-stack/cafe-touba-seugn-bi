@@ -1,0 +1,44 @@
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl border-b border-primary-container/10">
+  <div class="container-x h-20 flex items-center justify-between gap-space-md">
+    <a href="index.html" class="flex items-center gap-space-sm" aria-label="Café Touba SEUGN BI - Accueil">
+      <img src="assets/img/logo-badge.webp" alt="Logo Café Touba SEUGN BI" width="48" height="48" class="h-12 w-12 rounded-full">
+      <span class="flex flex-col leading-none">
+        <span class="font-display text-headline-sm text-primary tracking-tight">SEUGN BI</span>
+        <span class="text-label-sm uppercase tracking-widest text-on-surface-variant mt-1">Café Touba Noble</span>
+      </span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-space-md" aria-label="Navigation principale">
+      <a class="nav-link" data-nav="accueil" href="index.html">Accueil</a>
+      <a class="nav-link" data-nav="histoire" href="histoire.html">Notre Histoire</a>
+      <a class="nav-link" data-nav="produits" href="produits.html">Nos Produits</a>
+      <a class="nav-link" data-nav="djar" href="djar.html">Le Djar</a>
+      <a class="nav-link" data-nav="commander" href="commander.html">Commander</a>
+      <a class="nav-link" data-nav="contact" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-space-sm">
+      <a href="tel:+221780188809" class="hidden xl:inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container text-label-md uppercase tracking-wider hover:bg-primary transition-colors">
+        <span class="material-symbols-outlined text-[18px]">call</span>78 018 88 09
+      </a>
+      <button type="button" data-cart-open aria-label="Ouvrir le panier" class="relative w-11 h-11 rounded-full bg-surface-container-high hover:bg-surface-container-highest transition-colors flex items-center justify-center">
+        <span class="material-symbols-outlined text-primary text-[22px]">shopping_bag</span>
+        <span data-cart-count class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-tertiary-container text-on-tertiary-container text-[10px] font-bold flex items-center justify-center">0</span>
+      </button>
+      <button type="button" data-menu-toggle aria-label="Menu" aria-expanded="false" class="lg:hidden w-11 h-11 flex items-center justify-center text-on-surface">
+        <span class="material-symbols-outlined text-[26px]">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <nav data-mobile-menu class="hidden lg:hidden border-t border-primary-container/10 bg-surface-dim" aria-label="Navigation mobile">
+    <div class="container-x py-space-sm flex flex-col">
+      <a class="py-3 nav-link" data-nav="accueil" href="index.html">Accueil</a>
+      <a class="py-3 nav-link" data-nav="histoire" href="histoire.html">Notre Histoire &amp; Savoir-Faire</a>
+      <a class="py-3 nav-link" data-nav="produits" href="produits.html">Nos Produits</a>
+      <a class="py-3 nav-link" data-nav="djar" href="djar.html">Le Poivre de Djar</a>
+      <a class="py-3 nav-link" data-nav="commander" href="commander.html">Commander</a>
+      <a class="py-3 nav-link" data-nav="contact" href="contact.html">Contact Dakar</a>
+    </div>
+  </nav>
+</header>

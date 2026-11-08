@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-surface text-on-surface font-sans text-body-md antialiased; overscroll-behavior-y: none; }
+  h1, h2, h3, .font-display { font-family: 'Bodoni Moda', serif; }
+  ::selection { background: #f2be8c; color: #482904; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-[1280px] px-margin-sm lg:px-margin; }
+  .eyebrow { @apply text-label-md uppercase tracking-widest text-primary font-semibold; }
+  .h-display { @apply font-display text-display-lg-mobile md:text-display-lg text-primary; }
+  .h-section { @apply font-display text-headline-lg-mobile md:text-headline-lg text-on-surface; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-space-lg py-space-sm text-label-md uppercase tracking-wider font-bold transition-all duration-300 active:scale-95; }
+  .btn-primary { @apply bg-primary text-on-primary shadow-lg hover:bg-primary-fixed hover:shadow-[0_4px_24px_rgba(212,163,115,0.3)]; }
+  .btn-secondary { @apply border border-primary-container/40 text-on-surface hover:bg-primary hover:text-on-primary; }
+  .card { @apply rounded-2xl bg-surface-container border border-primary-container/20; }
+  .input { @apply w-full rounded bg-surface-container-highest px-space-sm py-2.5 text-on-surface placeholder:text-outline border-b border-outline-variant focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary; }
+  .label { @apply block mb-1 text-label-sm uppercase text-on-surface-variant font-semibold; }
+  .nav-link { @apply text-on-surface-variant hover:text-on-surface transition-colors; }
+  .nav-link[aria-current="page"] { @apply text-primary font-bold border-b border-primary pb-0.5; }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+}

@@ -1,0 +1,36 @@
+<!--title: Commander en ligne — Café Touba SEUGN BI-->
+<!--desc: Commandez votre Café Touba SEUGN BI en 1 minute : remplissez le formulaire et envoyez votre commande sur WhatsApp. Livraison à Dakar, paiement à la livraison.-->
+<!--nav: commander-->
+
+<section class="container-x py-space-xl">
+  <div class="flex flex-col gap-space-xs max-w-2xl mb-space-lg">
+    <span class="eyebrow">Commande express</span>
+    <h1 class="h-display">Commandez en 1 minute</h1>
+    <p class="text-body-lg text-on-surface-variant">Vérifiez votre panier, renseignez votre livraison : votre commande s'ouvre prête à envoyer sur WhatsApp.</p>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+    <div class="lg:col-span-5 card p-space-md flex flex-col gap-space-sm lg:sticky lg:top-28">
+      <h2 class="font-sans text-title-md text-primary">Votre panier</h2>
+      <div data-checkout-items class="flex flex-col gap-space-sm"></div>
+      <div class="flex items-center justify-between pt-space-sm border-t border-outline-variant/40"><span class="text-on-surface-variant">Total</span><span data-checkout-total class="font-display text-headline-sm text-primary font-bold">0 FCFA</span></div>
+      <a href="produits.html" class="text-primary text-label-md uppercase tracking-wider hover:underline">+ Ajouter d'autres produits</a>
+    </div>
+
+    <form data-order-form class="lg:col-span-7 card p-space-md flex flex-col gap-space-sm">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+        <div><label class="label" for="nom">Nom complet</label><input class="input" id="nom" name="nom" required autocomplete="name" placeholder="Ex : Moussa Diop"></div>
+        <div><label class="label" for="tel">Téléphone / WhatsApp</label><input class="input" id="tel" name="tel" type="tel" required autocomplete="tel" placeholder="Ex : 77 000 00 00"></div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+        <div><label class="label" for="quartier">Quartier / Ville</label><select class="input" id="quartier" name="quartier" required></select></div>
+        <div><label class="label" for="adresse">Adresse / point de repère</label><input class="input" id="adresse" name="adresse" required placeholder="Ex : près de la pharmacie…"></div>
+      </div>
+      <div><label class="label" for="note">Remarque (facultatif)</label><textarea class="input" id="note" name="note" rows="2"></textarea></div>
+      <button data-checkout-submit type="submit" class="btn btn-primary w-full disabled:opacity-40 disabled:cursor-not-allowed"><span class="material-symbols-outlined text-[18px]">chat</span>Envoyer ma commande sur WhatsApp</button>
+      <div data-form-feedback class="hidden p-space-xs rounded bg-surface-container-highest border border-primary/40 text-primary text-center text-label-md"></div>
+      <p class="text-label-sm text-center text-on-surface-variant">Paiement à la livraison : Wave, Orange Money ou espèces. Les frais de livraison éventuels vous sont confirmés sur WhatsApp.</p>
+    </form>
+  </div>
+</section>
+
